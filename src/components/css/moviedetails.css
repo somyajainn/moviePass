@@ -1,0 +1,53 @@
+/* components/css/moviedetails.css */
+.movie-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    min-height: 100vh; /* Ensures the footer is at the bottom if content is short */
+  }
+  
+  .movie-details {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .movie-image-container {
+    flex: 1;
+    max-width: 300px;
+    margin-right: 20px;
+  }
+  
+  .movie-image {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .movie-details-info {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .book-seats-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+    width: fit-content; /* Change this to set a smaller width */
+}
+
+  .book-seats-button:hover {
+    background-color: #0056b3;
+  }
+  
