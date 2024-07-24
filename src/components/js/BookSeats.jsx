@@ -24,7 +24,7 @@ const BookSeats = () => {
 		const amount = selectedSeats.length * seatCost;
 
 		const options = {
-			key: "",
+			key: "your api key",
 			amount: amount * 100,
 			currency: "INR",
 			name: "Movie Booking",
